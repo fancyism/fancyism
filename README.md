@@ -43,3 +43,7 @@ Copy them freely. If one saves your day, a star pays the rent.
   I push new work almost every day.
   <strong><a href="https://github.com/fancyism?tab=follow">Follow @fancyism</a></strong> to catch it first.
 </p>
+
+<p align="center">
+  <sub><i>โค้ดส่วนใหญ่ในนี้เกิดตอนตีสอง — ถ้าเจอบั๊ก นั่นแหละคือลายเซ็นผม</i></sub> 🌙
+</p>
