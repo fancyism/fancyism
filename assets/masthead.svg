@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="240" viewBox="0 0 940 240" font-family="'Segoe UI','Noto Sans Thai',Tahoma,system-ui,sans-serif" role="img" aria-labelledby="fa-masthead-title fa-masthead-desc">
+  <title id="fa-masthead-title">Fan Affan builds AI agents</title>
+  <desc id="fa-masthead-desc">Masthead for a developer profile: name, positioning line in English and Thai, and a spec column listing stack, focus and shipping cadence.</desc>
+  <!--
+    Fan Affan — profile masthead
+    Brief: Swiss x Engineering Spec Sheet | Tier: PREMIUM | Mode: image-source (self-contained)
+    Tokens: ink #20272F / paper #FCFDFE / dark-bg #161B22 / dark-ink #F3F5F7 / accent #D61723
+            hairline #E7EAEE (light) / #2D3748 (dark)
+    Motion contract: hero = stroke trace (underline draws once, 900ms ease-out-quart),
+    subordinate = caret opacity blink. Static pose = underline complete, caret visible.
+    Self-themes via prefers-color-scheme. Honors prefers-reduced-motion.
+  -->
+  <style>
+    :root {
+      --fa-duration: 900ms;
+      --fa-easing: cubic-bezier(.22,1,.36,1);
+      --fa-blink-period: 1100ms;
+    }
+    .fa-bg    { fill: #FCFDFE; }
+    .fa-name  { fill: #20272F; }
+    .fa-sub   { fill: #484C53; }
+    .fa-body  { fill: #25303B; }
+    .fa-muted { fill: #6B7280; }
+    .fa-spec  { fill: #484C53; }
+    .fa-speck { fill: #20272F; }
+    .fa-rule  { stroke: #E7EAEE; }
+    @media (prefers-color-scheme: dark) {
+      .fa-bg    { fill: #161B22; }
+      .fa-name  { fill: #F3F5F7; }
+      .fa-sub   { fill: #B6BEC9; }
+      .fa-body  { fill: #D7DDE4; }
+      .fa-muted { fill: #8B949E; }
+      .fa-spec  { fill: #B6BEC9; }
+      .fa-speck { fill: #F3F5F7; }
+      .fa-rule  { stroke: #2D3748; }
+    }
+    .fa-underline {
+      stroke: #D61723; stroke-width: 3; stroke-linecap: butt;
+      stroke-dasharray: 340; stroke-dashoffset: 340;
+      animation: fa-draw var(--fa-duration) var(--fa-easing) 250ms forwards;
+    }
+    .fa-caret {
+      fill: #D61723; opacity: 1;
+      animation: fa-blink var(--fa-blink-period) steps(1,end) infinite;
+    }
+    @keyframes fa-draw  { to { stroke-dashoffset: 0; } }
+    @keyframes fa-blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .fa-underline { stroke-dashoffset: 0; animation: none; }
+      .fa-caret     { animation: none; }
+    }
+  </style>
+
+  <rect class="fa-bg" width="940" height="240"/>
+
+  <!-- label -->
+  <text class="fa-muted" x="36" y="44" font-size="12" letter-spacing="3" font-weight="600">FAN AFFAN</text>
+  <rect x="36" y="56" width="24" height="2" fill="#D61723"/>
+
+  <!-- name + hero motion -->
+  <text class="fa-name" x="36" y="118" font-size="52" font-weight="700" letter-spacing="-1">Builds AI agents.</text>
+  <line class="fa-underline" x1="37" y1="132" x2="377" y2="132"/>
+  <rect class="fa-caret" x="392" y="98" width="10" height="26" rx="1"/>
+
+  <!-- positioning -->
+  <text class="fa-sub" x="36" y="166" font-size="16.5" font-weight="600">One developer in Bangkok. A whole team of agents in production.</text>
+  <text class="fa-body" x="36" y="192" font-size="14">สายสร้าง AI agent ให้ทำงานแทน — MCP tools, automation, ระบบที่รันเองทุกวัน</text>
+
+  <text class="fa-muted" x="36" y="222" font-size="12.5">open to work · remote-friendly · Bangkok (UTC+7)</text>
+
+  <!-- spec column -->
+  <line class="fa-rule" x1="640" y1="36" x2="640" y2="204" stroke-width="1"/>
+  <g font-size="13" font-family="Consolas,Menlo,monospace">
+    <text class="fa-muted" x="664" y="60" font-size="11" letter-spacing="2">SPEC</text>
+    <text class="fa-speck" x="664" y="86" font-weight="700">stack</text>
+    <text class="fa-spec" x="664" y="104">TypeScript · Python · Node</text>
+    <text class="fa-speck" x="664" y="134" font-weight="700">focus</text>
+    <text class="fa-spec" x="664" y="152">agent skills · MCP · automation</text>
+    <text class="fa-speck" x="664" y="182" font-weight="700">shipping</text>
+    <text class="fa-spec" x="664" y="200">daily, since Dec 2023</text>
+  </g>
+</svg>

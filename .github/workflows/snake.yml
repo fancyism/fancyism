@@ -14,14 +14,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: generate snake.svg
+      - name: generate branded snake (light + dark)
         uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: fancyism
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg?color_snake=%23D61723&color_dots=%23E7EAEE,%23CDD3DA,%23AFB8C1,%238C959F,%236E7681
+            dist/snake-dark.svg?color_snake=%23D61723&color_dots=%231C2330,%232D3748,%23484F53,%236E7681,%238B949E
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4

@@ -1,73 +1,45 @@
-<div align="center">
-  <img src="assets/banner.svg" width="880" alt="Fan Affan — indie dev × AI agents" />
-</div>
+<p align="center">
+  <img src="assets/masthead.svg" width="880" alt="Fan Affan — builds AI agents. One developer in Bangkok, a whole team of agents in production." />
+</p>
 
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=F97316&center=true&vCenter=true&random=false&width=620&lines=agent+skills+%C3%97+MCP+tools+%C3%97+automation;%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9D%E0%B8%B6%E0%B8%81+bots+%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94%E0%B9%81%E0%B8%97%E0%B8%99%E0%B8%9C%E0%B8%A1;build+%2B+ship+%E0%B9%80%E0%B8%81%E0%B8%B7%E0%B8%AD%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%99" alt="Typing" />
-  </a>
-</div>
+I'm Fan — a developer who turns repeated work into agents. My repos are where those agents live: skills other people's AI can run, MCP tooling, and automation that ships while I sleep.
 
----
+### Now shipping
 
-## 🤖 ผมเชื่อว่า "dev คนเดียว + AI agents = ทีมได้"
+- **`[mcp]`** Content pipeline on Airtable + MCP — agents read, write and move lifecycle states straight from chat
+- **`[ai-art]`** High Prompt Lab — a prompt-to-pixel system that turns briefs into production-grade graphics
+- **`[video]`** HyperRemoEdit — automatic video editing built on Remotion + HyperFrames
+- **`[knowledge]`** WIKID-LLM — a schema'd second brain an LLM can actually navigate
 
-ผมคือ **Fan** — indie dev ที่ไม่ชอบทำงานซ้ำ ๆ วิธีแก้ของผมคือสร้าง **AI agents เป็นของตัวเอง** มาทำงานแทน: เขียนโค้ด รีวิว วิจัย รัน automation ตอนผมนอน 😴
+### Free agent skills
 
-> งานที่คนอื่นก๊อปมาทำทุกวัน — ผมเขียน agent ให้มันทำ แล้วไปปั่นของใหม่ต่อ 🌙
+Plug these into Claude, Codex, Cursor or any MCP-capable agent:
 
-### 🔥 ตอนนี้กำลังปั่นอะไร
+- **[fix-it-skill](https://github.com/fancyism/fix-it-skill)** — relentless bug-hunting discipline: root cause or it didn't happen
+- **[delegate-wave](https://github.com/fancyism/delegate-wave-skill)** — orchestrate parallel AI agents: decompose → dispatch → review → integrate
+- **[gridgeist](https://github.com/fancyism/gridgeist)** — turns intent into a rigorous visual system, no generic-SaaS aftertaste
 
-| โปรเจกต์ | คืออะไร |
-|---|---|
-| 🧵 **Content pipeline on Airtable + MCP** | ระบบจัดการคอนเทนต์ทั้งเส้น ต่อผ่าน MCP — agent อ่าน/เขียน/เปลี่ยนสถานะได้จากในแชท |
-| 🎨 **High Prompt Lab** | ระบบ prompt-to-pixel — เปลี่ยนโจทย์ออกแบบให้เป็นภาพ production-grade ด้วย AI |
-| 📺 **HyperRemoEdit** | ตัดต่อวิดีโออัตโนมัติด้วย Remotion + HyperFrames |
-| 🧠 **WIKID-LLM** | second brain แบบมี schema — ให้ LLM เข้าใจคลังความรู้ส่วนตัวได้ |
+Copy them freely. If one saves your day, a star pays the rent.
 
----
+<p>
+  <sub><code>21 public repos · 38 private builds · shipping since Dec 2023 · Bangkok UTC+7</code></sub>
+</p>
 
-## 🎁 ของฟรี — ติดตั้งให้ agent ของคุณได้เลย
-
-| Skill | ทำอะไรให้ agent ของคุณ |
-|---|---|
-| 🔧 [**fix-it-skill**](https://github.com/fancyism/fix-it-skill) | วินัยแก้บั๊กจริงจัง — หา root cause ไม่ใช่แปะยาแก้อาการ (ใช้ได้กับ Claude, Codex, Cursor, Gemini...) |
-| 🌊 [**delegate-wave**](https://github.com/fancyism/delegate-wave-skill) | กระจายงานให้ AI agents หลายตัวพร้อมกัน — decompose → dispatch → review → integrate |
-| 🎨 [**gridgeist**](https://github.com/fancyism/gridgeist) | เปลี่ยน intent ให้เป็น visual system จริงจัง — ไม่ใช่หน้าตา SaaS generic ซ้ำ ๆ |
-
-*ก๊อบไปใช้ได้ฟรี — ถ้าช่วยได้จริง ฝาก ⭐ เป็นกำลังใจครับ*
-
----
-
-## 🛠️ ของเล่นอื่นที่ปั่นไว้
-
-`bagidea-office` สตูดิโอ AI agents บน desktop wallpaper 🖼️ · `blog8byte` เว็บบล็อก ⚡ · `WhisperApp` พิมพ์ด้วยเสียงบน macOS 🎙️ · `slide-pitch` เครื่องมือสไลด์ 📊
-
-<div align="center">
-  <img height="150" src="assets/stats.svg" alt="Fan's stats" />
-  <img height="150" src="assets/langs.svg" alt="languages" />
-</div>
-
-<div align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=fancyism&background=0D1117&stroke=2D3748&ring=F97316&fire=FBBF24&currStreakLabel=E6EDF3&sideLabels=E6EDF3&dates=8B949E&currStreakNum=E6EDF3" alt="streak" />
-</div>
-
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fancyism/fancyism/output/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fancyism/fancyism/output/snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/fancyism/fancyism/output/snake.svg" />
+    <img alt="Contribution snake animation — the agent eats the backlog" src="https://raw.githubusercontent.com/fancyism/fancyism/output/snake.svg" width="70%" />
   </picture>
-</div>
+</p>
+
+<p align="center">
+  <sub>the agent eats the backlog — regenerated daily</sub>
+</p>
 
 ---
 
-<div align="center">
-
-### ⚡ ผม push ของใหม่เกือบทุกวัน — follow ไว้เจอของก่อนใคร
-
-**[👉 Follow @fancyism](https://github.com/fancyism)**
-
-*โค้ดส่วนใหญ่ในนี้เกิดตอนตีสอง — ถ้าเจอบั๊ก นั่นแหละคือลายเซ็นผม* 🌙
-
-</div>
+<p align="center">
+  I push new work almost every day.
+  <strong><a href="https://github.com/fancyism?tab=follow">Follow @fancyism</a></strong> to catch it first.
+</p>
