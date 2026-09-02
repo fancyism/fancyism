@@ -45,5 +45,5 @@ Copy them freely. If one saves your day, a star pays the rent.
 </p>
 
 <p align="center">
-  <sub><i>โค้ดส่วนใหญ่ในนี้เกิดตอนตีสอง — ถ้าเจอบั๊ก นั่นแหละคือลายเซ็นผม</i></sub> 🌙
+  <sub><i>Most of this code was written at 2am — if you spot a bug, that's my signature.</i></sub> 🌙
 </p>
