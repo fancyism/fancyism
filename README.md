@@ -44,8 +44,8 @@
 `bagidea-office` สตูดิโอ AI agents บน desktop wallpaper 🖼️ · `blog8byte` เว็บบล็อก ⚡ · `WhisperApp` พิมพ์ด้วยเสียงบน macOS 🎙️ · `slide-pitch` เครื่องมือสไลด์ 📊
 
 <div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=fancyism&show_icons=true&bg_color=0d1117&title_color=f97316&icon_color=fbbf24&text_color=e6edf3&border_color=2d3748" alt="stats" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fancyism&layout=compact&bg_color=0d1117&title_color=f97316&text_color=e6edf3&border_color=2d3748" alt="langs" />
+  <img height="150" src="assets/stats.svg" alt="Fan's stats" />
+  <img height="150" src="assets/langs.svg" alt="languages" />
 </div>
 
 <div align="center">
