@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/masthead.svg" width="880" alt="Fan Affan — builds AI agents. One developer in Bangkok, a whole team of agents in production." />
+  <img src="assets/p0kbsfp5.jpg" width="380" alt="Fan Affan — builds AI agents. One developer in Bangkok, a whole team of agents in production." />
 </p>
 
 I'm Fan — a developer who turns repeated work into agents. My repos are where those agents live: skills other people's AI can run, MCP tooling, and automation that ships while I sleep.
